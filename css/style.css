@@ -1,0 +1,23 @@
+/* .conteiner {
+    margin: 0 auto;
+}
+
+.text {
+    margin: 0px auto;
+} */
+
+.list {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.list:hover .list-item {
+    transform: translate(0);
+}
+
+.list-item {
+    transform: translatex(-100%);
+}
