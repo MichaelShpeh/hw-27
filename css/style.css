@@ -1,10 +1,14 @@
-/* .conteiner {
-    margin: 0 auto;
+.conteiner {
+    width: 1200px;
+    position: relative;
+    padding: 20px;
 }
 
 .text {
-    margin: 0px auto;
-} */
+    position: absolute;
+    left: 50%;
+    top: -15px;
+}
 
 .list {
     width: 300px;
@@ -12,6 +16,7 @@
     margin: 0px auto;
     background-color: gray;
     overflow: hidden;
+    text-align: center;
 }
 
 .list:hover .list-item {
