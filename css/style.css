@@ -5,24 +5,41 @@
 }
 
 .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111px;
+    height: 40px;
     position: absolute;
-    left: 35%;
-    top: 50px;
-    transform: rotate(-90deg);
+    left: 40%;
+    top: 39px;
+    transform: rotate(90deg);
+    background-color: gray;
+    z-index: 2;
 }
 
 .list {
-    width: 300px;
-    height: 111px;
+    width: 150px;
+    /* height: px; */
     margin: 0px auto;
-    background-color: gray;
     overflow: hidden;
+    text-align: center;
 }
 
 .list:hover .list-item {
     transform: translate(0);
 }
 
+.list:hover .text {
+    visibility: hidden;
+}
+
 .list-item {
+    background-color: gray;
     transform: translatex(-100%);
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: orange;
 }
